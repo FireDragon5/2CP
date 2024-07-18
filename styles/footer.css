@@ -1,0 +1,39 @@
+.footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+}
+.footer a {
+  color: #f0a500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer a:hover {
+  color: #ffffff;
+}
+.footer h5 {
+  margin-bottom: 20px;
+}
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer ul li a {
+  display: flex;
+  align-items: center;
+}
+.footer ul li a i {
+  margin-right: 8px;
+}
+.footer .text-center {
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 10px;
+}
