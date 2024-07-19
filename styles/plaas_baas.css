@@ -5,6 +5,11 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  /* Add a background image out the images folder */
+  background-image: url("../images/wave.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -44,4 +49,7 @@ body {
   border-radius: 20px;
 }
 
-
+h1 {
+  font-size: 3rem; /* Increase the font size */
+  margin-top: 20px; /* Adjust the top margin to move it closer to the navbar */
+}
