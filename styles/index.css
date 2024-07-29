@@ -56,3 +56,17 @@
 .footer {
   position: fixed;
 }
+
+.navbar-brand,
+.nav-link {
+  /* Change the color depending on the background color */
+  color: #ffffff !important;
+  transition: color 0.2s;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
