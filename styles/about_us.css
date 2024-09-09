@@ -55,3 +55,7 @@
   color: #ffffff;
   line-height: 1.6;
 }
+
+.content-container {
+  padding-bottom: 100px; /* Adjust the value as needed */
+}
