@@ -73,3 +73,11 @@
 .card-container {
   margin-bottom: 100px; /* Adjust the value as needed */
 }
+
+@media (max-width: 450px) {
+  .card-img-top,
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+}
