@@ -51,18 +51,18 @@
 }
 
 .content-container {
-  padding-bottom: 100px; /* Adjust the value as needed */
+  padding-bottom: 100px; 
 }
 
-/* Social Icons */
+
 .social-icons {
   margin-top: 10px;
 }
 
 .social-icon {
   margin: 0 10px;
-  font-size: 1.5rem; /* Size of the icons */
-  color: #ffffff; /* Icon color */
+  font-size: 1.5rem; 
+  color: #ffffff; 
   display: inline-block;
   transition: transform 0.3s ease;
 }

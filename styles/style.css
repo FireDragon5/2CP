@@ -65,10 +65,6 @@ button {
   margin: 1rem;
 }
 
-#About_Us {
-  margin-right: 2rem;
-}
-
 .footer {
   transition: opacity 0.5s;
   opacity: 1;
