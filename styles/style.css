@@ -1,29 +1,30 @@
 body {
-  background-color: #121212;
+  scroll-behavior: smooth;
+  background-color: #697565;
   color: #ffffff;
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Arial", sans-serif;
   transition: background-color 0.5s;
 }
 .navbar {
-  background: transparent;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  background-color: rgba(24, 28, 20, 0.75);
 }
 
 .navbar-brand,
 .nav-link {
   /* Change the color depending on the background color */
-  color: #000 !important;
+  color: #fff !important;
   transition: color 0.2s;
   position: relative;
   padding: 10px 15px;
 }
 
 .nav-link:hover {
-  color: #000;
-  border-bottom: 2px solid #000000;
+  color: #fff;
+  border-bottom: 2px solid #ffffff;
 }
 
 a {

@@ -4,6 +4,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
+  position: relative;
 }
 .circle img {
   width: 100%;
@@ -14,8 +15,8 @@
   margin-top: 20px;
 }
 .team-box {
-  background-color: #1e1e1e;
-  border: 2px solid #2a2a2a;
+  background: linear-gradient(#697565, #181c14);
+  border: 2px solid #ffff;
   border-radius: 30px;
   color: #ffffff;
   cursor: pointer;
@@ -35,16 +36,13 @@
   background-color: transparent;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
 }
 .about-container h2 {
-  font-family: "Arial", sans-serif;
   color: #ffffff;
   margin-bottom: 10px;
 }
 .about-container p {
-  font-family: "Arial", sans-serif;
   color: #ffffff;
   line-height: 1.6;
 }
