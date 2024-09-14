@@ -61,7 +61,13 @@
           <div>
             <h1>Welcome to Plaas Baas</h1>
             <p>
-              Plaas Baas is a mobile application that helps farmers to manage their work force by keeping track of workers expenses, overtime, year leave, and sick leave. The app also supports multiple farms that are managed by foremen, as well as the ability to automatically generate payslips for workers. All the data is stored in a online database that can be accessed from anywhere in the world.
+              Plaas Baas is a mobile application that helps farmers to manage
+              their work force by keeping track of workers expenses, overtime,
+              year leave, and sick leave. The app also supports multiple farms
+              that are managed by foremen, as well as the ability to
+              automatically generate payslips for workers. All the data is
+              stored in a online database that can be accessed from anywhere in
+              the world.
             </p>
           </div>
         </div>
@@ -90,7 +96,12 @@
           <div>
             <h1>Track Worker Expenses</h1>
             <p>
-              Plaas Baas has seperate catagories that it uses to store worker data, with easy access to boot. It also sortes data based on the selected month as to not overwhelm the user. It also has a filter function for all the transactions that have been made by the user. Overtime can also be calculated and added to the worker using the built in overtime calculator.
+              Plaas Baas has seperate catagories that it uses to store worker
+              data, with easy access to boot. It also sortes data based on the
+              selected month as to not overwhelm the user. It also has a filter
+              function for all the transactions that have been made by the user.
+              Overtime can also be calculated and added to the worker using the
+              built in overtime calculator.
             </p>
           </div>
         </div>
@@ -103,7 +114,15 @@
           <div>
             <h1>Nifty Features</h1>
             <p>
-              Plaas Baas contains a multitude of features that make it easy to use and understand. The app has a built in calculator that can be used to calculate the amount of overtime that a worker has worked. The app also has a built in calender that can be used to keep track of the workers leave days, as well as a built in payslip generator that can be used to generate payslips for the workers. Customisable settings that can be used to change the app to the users liking is also included, as well as the farmer manager where the user can add and remove foremen from the registered farm.
+              Plaas Baas contains a multitude of features that make it easy to
+              use and understand. The app has a built in calculator that can be
+              used to calculate the amount of overtime that a worker has worked.
+              The app also has a built in calender that can be used to keep
+              track of the workers leave days, as well as a built in payslip
+              generator that can be used to generate payslips for the workers.
+              Customisable settings that can be used to change the app to the
+              users liking is also included, as well as the farmer manager where
+              the user can add and remove foremen from the registered farm.
             </p>
           </div>
         </div>
@@ -132,20 +151,24 @@
           <div>
             <h1>Payslip Generator</h1>
             <p>
-              The payslip generator automatically generates a payslip based on the data entered by the user. It includes recurring deductions, transaction, year leave, sick leave, and overtime.
+              The payslip generator automatically generates a payslip based on
+              the data entered by the user. It includes recurring deductions,
+              transaction, year leave, sick leave, and overtime.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <div class="text-center py-3">
-          &copy; 2024 2Cap. All rights reserved.
-        </div>
-      </div>
-    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("html_componets/footer.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.body.innerHTML += data;
+          });
+      });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
