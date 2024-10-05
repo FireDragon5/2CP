@@ -18,40 +18,17 @@
     <link rel="stylesheet" href="styles/gym_buddy.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-        <img
-          class="logo"
-          src="images/fitfarmshowcase.jpeg"
-          alt="2CP Logo"
-          width="30"
-          height="30" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="plaas_baas.html">Plaas Baas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gymbuddy.html">GymBuddy</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="About_Us" href="about_us.html">About Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div id="navbar-placeholder"></div>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("html_componets/navbar.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("navbar-placeholder").innerHTML = data;
+          });
+      });
+    </script>
     <div class="container mt-5">
       <!-- Home Screen -->
       <div class="row">

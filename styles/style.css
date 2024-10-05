@@ -44,10 +44,16 @@ a {
 }
 
 .logo {
-  margin: 10px;
-  height: auto;
-  width: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
+  border: 2px solid #ffffff;
+  transition: transform 0.5s;
+  margin: 1rem;
+  background-size: auto;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* hove logo */
