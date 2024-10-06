@@ -15,7 +15,6 @@ body {
 
 .navbar-brand,
 .nav-link {
-  /* Change the color depending on the background color */
   color: #fff !important;
   transition: color 0.2s;
   position: relative;
@@ -44,16 +43,32 @@ a {
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: auto;
   border-radius: 50%;
   border: 2px solid #ffffff;
   transition: transform 0.5s;
   margin: 1rem;
-  background-size: auto;
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.brand-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.brand-subtext {
+  font-size: 0.75rem;
+  margin-top: -5px;
 }
 
 /* hove logo */
